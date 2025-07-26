@@ -1,4 +1,3 @@
-/* 🌑 Base page styling */
 body {
     background-color: #0f1116;
     color: #f1f1f1;
@@ -6,7 +5,6 @@ body {
     line-height: 1.6;
 }
 
-/* 🌟 Headings */
 h1 {
     text-align: center;
     font-size: 2.8rem !important;
@@ -18,7 +16,6 @@ h3 {
     color: #ffffff;
 }
 
-/* ✏️ Text input */
 .stTextInput > div > div > input {
     border-radius: 10px;
     padding: 0.6rem 0.8rem;
@@ -33,7 +30,6 @@ h3 {
     box-shadow: 0 0 5px rgba(61,160,57,0.7);
 }
 
-/* 🔘 Buttons */
 .stButton > button {
     background-color: #3da039;
     color: #ffffff;
@@ -50,7 +46,7 @@ h3 {
     background-color: #1d7730;
     transform: translateY(-1px);
 }
-/* Fix active/focus state (no red text) */
+
 .stButton > button:focus,
 .stButton > button:active {
     color: #ffffff !important;
@@ -59,7 +55,6 @@ h3 {
     box-shadow: none !important;
 }
 
-/* 🃏 Card styling */
 .card {
     background: #1c1e26;
     padding: 20px;
@@ -68,7 +63,6 @@ h3 {
     margin-top: 20px;
 }
 
-/* 💬 Quote text */
 .quote {
     font-size: 1.5rem;
     font-style: italic;
@@ -85,7 +79,6 @@ h3 {
     text-align: center;
 }
 
-/* ✅ History badge */
 .save-badge {
     color: #00ff99;
     font-size: 0.85rem;
